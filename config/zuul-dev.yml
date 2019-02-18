@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://119.29.208.119:8761/eureka/
 server:
   port: 8762
 spring:
@@ -15,7 +15,7 @@ zuul:
     #路由转发
     api-basicS:
       path: /api-basicS/**
-      url: http://localhost:8763
+      url: http://119.29.208.119:8763
 #  重定向时隐藏真实端口地址
   add-host-header: true
 ribbon:
