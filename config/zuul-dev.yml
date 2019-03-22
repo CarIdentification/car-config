@@ -15,7 +15,7 @@ zuul:
     #路由转发
     api-basicS:
       path: /api-basicS/**
-      url: http://119.29.208.119:8763
+      url: https://119.29.208.119:8763
 #  重定向时隐藏真实端口地址
   add-host-header: true
 ribbon:
