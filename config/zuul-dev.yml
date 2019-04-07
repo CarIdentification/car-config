@@ -16,6 +16,9 @@ zuul:
     api-basicS:
       path: /api-basicS/**
       url: https://www.kebencool.cn:8763
+    classify-service:
+      path: /classify-service/**
+      url: https://www.kebencool.cn:8765  
 #  重定向时隐藏真实端口地址
   add-host-header: true
 ribbon:
