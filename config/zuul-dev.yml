@@ -34,3 +34,10 @@ hystrix:
 multipart:
   maxFileSize: 10Mb
   maxRequestSize: 50Mb
+web:
+  upload-path: /data
+spring:
+  mvc:
+    static-path-pattern: /data/**
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
